@@ -1,0 +1,405 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'ko' Physical Memory: 16052 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/CHAN_Unity/UnityStandaloneFileBrowser
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64228
+Successfully changed project path to: D:/CHAN_Unity/UnityStandaloneFileBrowser
+D:/CHAN_Unity/UnityStandaloneFileBrowser
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 39.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/CHAN_Unity/UnityStandaloneFileBrowser/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002261 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 41.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.385 seconds
+Domain Reload Profiling:
+	ReloadAssembly (385ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (280ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (62ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (167ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001925 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\CHAN_Unity\UnityStandaloneFileBrowser\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\CHAN_Unity\UnityStandaloneFileBrowser\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Domain Reload Profiling:
+	ReloadAssembly (768ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (534ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3261 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (55.3 KB). Loaded Objects now: 3716.
+Memory consumption went from 111.9 MB to 111.9 MB.
+Total: 2.269700 ms (FindLiveObjects: 0.202800 ms CreateObjectMapping: 0.086500 ms MarkObjects: 1.928400 ms  DeleteObjects: 0.051000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 142577.081742 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/log4netPlastic.dll
+  artifactKey: Guid(e60bdd1e4f6314d2382f323172110798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/log4netPlastic.dll using Guid(e60bdd1e4f6314d2382f323172110798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4233a7af52d1350fcbdc9a86fec5bcd9') in 0.029177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.072331 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/lz4x64Plastic.dll
+  artifactKey: Guid(074a5a5f34697b64c9b36dc09f6f7c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/lz4x64Plastic.dll using Guid(074a5a5f34697b64c9b36dc09f6f7c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5a2bcc03b27aa4e5536b0b61d032e5') in 0.005453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.508269 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll
+  artifactKey: Guid(f3cad5fee9fee5945b13e7e3518afb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll using Guid(f3cad5fee9fee5945b13e7e3518afb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88026472929ae09e7b4ba8881600bc2d') in 0.005929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.757338 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll
+  artifactKey: Guid(e5fb93667cf08524f94b12181dbe3546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll using Guid(e5fb93667cf08524f94b12181dbe3546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddb39288db45655c7c7a912c7aa626e') in 0.006076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.478655 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/unityplastic.dll
+  artifactKey: Guid(a81d297c7cdb9424fbef549ef614bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/unityplastic.dll using Guid(a81d297c7cdb9424fbef549ef614bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036f088510a44197b3f3517ab5e282b8') in 0.005988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.197287 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/zlib64Plastic.dll
+  artifactKey: Guid(2f0909bef14cc58438d6fcea85ba8555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/zlib64Plastic.dll using Guid(2f0909bef14cc58438d6fcea85ba8555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113fb36acb4b6a64ff497163e85fff7a') in 0.005920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.703655 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/FileSystemWatcherLicense.txt
+  artifactKey: Guid(992242bf8b23e574bbc95a128844c481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/FileSystemWatcherLicense.txt using Guid(992242bf8b23e574bbc95a128844c481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdda746b2c120d621c40d47604b0afe') in 0.058601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.512083 seconds.
+  path: Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/localization
+  artifactKey: Guid(b057986d22277594c990e51bc07c5468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/localization using Guid(b057986d22277594c990e51bc07c5468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a70a386760b50be983196f339f6627') in 0.004675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.974352 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40fc5629c4141466786b845dfe4fc31') in 0.012705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.778693 seconds.
+  path: Packages/com.unity.ide.rider/package.json
+  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ce222370ea608aa42630e13250f7dc') in 0.001488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.253773 seconds.
+  path: Assets/StandaloneFileBrowser
+  artifactKey: Guid(a170f49d2def54e8fbf9d7d7598e0890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser using Guid(a170f49d2def54e8fbf9d7d7598e0890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cc52cc561a9372975f0e5c98e40e49') in 0.007797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.265692 seconds.
+  path: Assets/StandaloneFileBrowser/Sample
+  artifactKey: Guid(3f5dfc38c7ff8490b8d3d8c600024d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Sample using Guid(3f5dfc38c7ff8490b8d3d8c600024d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed03eef3a0d11116b3c36aa3553aee10') in 0.004743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.333019 seconds.
+  path: Assets/StandaloneFileBrowser/Sample/BasicSampleScene.unity
+  artifactKey: Guid(d97280fe82b874466870f709c3315d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Sample/BasicSampleScene.unity using Guid(d97280fe82b874466870f709c3315d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cc0069954e2b138bd8a1884cf36945') in 0.004930 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001833 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\CHAN_Unity\UnityStandaloneFileBrowser\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\CHAN_Unity\UnityStandaloneFileBrowser\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.609 seconds
+Domain Reload Profiling:
+	ReloadAssembly (609ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (463ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3255 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (24.6 KB). Loaded Objects now: 3719.
+Memory consumption went from 111.8 MB to 111.8 MB.
+Total: 2.150000 ms (FindLiveObjects: 0.155700 ms CreateObjectMapping: 0.072700 ms MarkObjects: 1.881200 ms  DeleteObjects: 0.039600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62.910235 seconds.
+  path: Assets/StandaloneFileBrowser/Sample/CanvasSampleScene.unity
+  artifactKey: Guid(c0e4eec5741834194a946535d535405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Sample/CanvasSampleScene.unity using Guid(c0e4eec5741834194a946535d535405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07c29399283a4fca317fad6519b50af') in 0.030335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.188396 seconds.
+  path: Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs
+  artifactKey: Guid(331c95b7bf39e4792acecff50a972040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs using Guid(331c95b7bf39e4792acecff50a972040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81027742b8ab0f1767eda0d4f44d6c04') in 0.007841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.660814 seconds.
+  path: Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs
+  artifactKey: Guid(99a65d6437df64949b37cba4eadc67a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs using Guid(99a65d6437df64949b37cba4eadc67a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e7958180ebe78014f9b90a82ea409d') in 0.005669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.705366 seconds.
+  path: Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs
+  artifactKey: Guid(6e681018aa67241a69b8447678ec3b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs using Guid(6e681018aa67241a69b8447678ec3b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a983d6ed2bf16fb03422c5e43e84f3d') in 0.005587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.815413 seconds.
+  path: Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle
+  artifactKey: Guid(a2a9837b81577491baf2ffadec5e2852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle using Guid(a2a9837b81577491baf2ffadec5e2852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6f8dcb2fd83b05641a4ac7b1915fd2') in 0.005835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.916375 seconds.
+  path: Assets/StandaloneFileBrowser/Plugins/Ookii.Dialogs.dll
+  artifactKey: Guid(e60958662eed5413d86143a0a69b731e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Plugins/Ookii.Dialogs.dll using Guid(e60958662eed5413d86143a0a69b731e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886f067c89a9a5d7b489aabc173fbb61') in 0.006302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.803073 seconds.
+  path: Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.jslib
+  artifactKey: Guid(265aaf20a6d564e0fb00a9c4a7a9c300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.jslib using Guid(265aaf20a6d564e0fb00a9c4a7a9c300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879c9265f3fe9dda7f34a47298f3fa6a') in 0.012000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.524179 seconds.
+  path: Assets/StandaloneFileBrowser/Plugins/System.Windows.Forms.dll
+  artifactKey: Guid(7d459a96865cc4aaab657012c6dc4833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Plugins/System.Windows.Forms.dll using Guid(7d459a96865cc4aaab657012c6dc4833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056fcfb015ef979192a43aaf3c6c0773') in 0.005554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.109603 seconds.
+  path: Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents
+  artifactKey: Guid(46dc4eb12fae14a349800ec0e97ac0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents using Guid(46dc4eb12fae14a349800ec0e97ac0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f18f185dc0f315a8478495bb0eb662') in 0.005710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.496732 seconds.
+  path: Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist
+  artifactKey: Guid(ce685769797f44046afa3e567860c94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist using Guid(ce685769797f44046afa3e567860c94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40576dbb4aa76b12f2c1a4d1a5350975') in 0.019768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.384133 seconds.
+  path: Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/MacOS
+  artifactKey: Guid(ee557323b3b2e4d0f8b4d5a2fdca2f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/MacOS using Guid(ee557323b3b2e4d0f8b4d5a2fdca2f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d36da478c4b21ef0aa6d5cf33b9dcf3') in 0.007254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.884365 seconds.
+  path: Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/MacOS/StandaloneFileBrowser
+  artifactKey: Guid(ddf122e0e89124ce78aacfeecb3ec554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/MacOS/StandaloneFileBrowser using Guid(ddf122e0e89124ce78aacfeecb3ec554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54404efa5316e20e5f17ec429c12d83a') in 0.001547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.289989 seconds.
+  path: Assets/StandaloneFileBrowser/Plugins
+  artifactKey: Guid(fabd0452d926f4a79b1a6ac2a3524117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Plugins using Guid(fabd0452d926f4a79b1a6ac2a3524117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc87f3a832c0aa1e92077b076b178829') in 0.005519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.432756 seconds.
+  path: Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs
+  artifactKey: Guid(194e247414a78461d83ae606c1b96917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs using Guid(194e247414a78461d83ae606c1b96917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d38db832777ee0ccdb3536aba2177e') in 0.007427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.849670 seconds.
+  path: Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs
+  artifactKey: Guid(bcb49ddb0ed5644fda9c3b055cafa27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs using Guid(bcb49ddb0ed5644fda9c3b055cafa27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18486dad82f78cbae8215cd031a8165') in 0.004395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.789137 seconds.
+  path: Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs
+  artifactKey: Guid(2650af8de2cda46b99b1bc7cf5d30ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs using Guid(2650af8de2cda46b99b1bc7cf5d30ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baecb4110a24edf245ab575436e81117') in 0.006967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.524926 seconds.
+  path: Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs
+  artifactKey: Guid(3c708be74128e4ced9b79eaaf80e8443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs using Guid(3c708be74128e4ced9b79eaaf80e8443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be2c7ed1447cd77307bd01b6d3d86b8') in 0.001563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.996672 seconds.
+  path: Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs
+  artifactKey: Guid(7609f7b6787a54496aa41a3053fcc76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs using Guid(7609f7b6787a54496aa41a3053fcc76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6c0b30d9cb8fb29e597c8270a5ac3f') in 0.005293 seconds 
